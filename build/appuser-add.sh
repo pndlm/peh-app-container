@@ -1,0 +1,3 @@
+#!/bin/bash
+# Composer really stresses not to be run as root...
+useradd -s /bin/bash -m -G www-data appuser
