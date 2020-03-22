@@ -20,5 +20,3 @@ if [ -d /etc/secret ]; then
 		echo "${BASENAME:8}=$( <$F )" >> $ENVFILE
 	done
 fi
-
-php /app/www/artisan config:cache
